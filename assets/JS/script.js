@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
 
       const data = await response.json();
       displayData(data);
-      console.log(data);
+
     } catch (error) {
       // Handle errors
       console.error("Error fetching data:", error);
