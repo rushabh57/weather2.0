@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
       srchInput.innerHTML = ` results for: ${input}`;
     }
 
-    const apiEndpoint = `http://api.weatherapi.com/v1/forecast.json?key=1a8b04a4017941d5aca64445241601&days=5&q=${input}`;
+    const apiEndpoint = `https://api.weatherapi.com/v1/forecast.json?key=1a8b04a4017941d5aca64445241601&days=5&q=${input}`;
 
     try {
       const response = await fetch(apiEndpoint);
