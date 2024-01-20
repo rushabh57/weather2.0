@@ -451,7 +451,9 @@ nav .Themes .themes-container .darkmodetoggle .squere-t-box img {
   background: linear-gradient(90deg, var(--whiteColor), var(--primeColor), var(--primeColor2), var(--whiteColor), var(--primeColor), var(--primeColor2));
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
-  font-size:12px;
+}
+@media (max-width: 770px) {
+  #srchInput{font-size:12px; width:70%; text-overflow: ellipsis; overflow:hidden; white-space:nowrap}
 }
 
 .DATA {
