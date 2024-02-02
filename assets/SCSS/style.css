@@ -330,7 +330,8 @@ nav .Themes .themes-container {
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
   overflow: hidden;
-  z-index: 1;
+  z-index: 999;
+  
   transition: cubic-bezier(0.165, 0.84, 0.44, 1) right 250ms;
 }
 nav .Themes .themes-container .primryClrPicker {
@@ -634,10 +635,12 @@ nav .Themes .themes-container .darkmodetoggle .squere-t-box img {
   display: grid;
   gap: 0.25em;
   grid-template-columns: 0.5fr 1fr;
+   isolation: isolate;
 }
 @media (max-width: 899px) {
   .DATA .srchedData .srched .wrapper-srched {
     grid-template-columns: 1fr 1fr;
+     isolation: isolate;
   }
 }
 @media (max-width: 627px) {
