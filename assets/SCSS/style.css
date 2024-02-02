@@ -643,6 +643,7 @@ nav .Themes .themes-container .darkmodetoggle .squere-t-box img {
 @media (max-width: 627px) {
   .DATA .srchedData .srched .wrapper-srched {
     grid-template-columns: 1fr;
+     isolation: isolate;
   }
 }
 .DATA .srchedData .srched .wrapper-srched .icon {
