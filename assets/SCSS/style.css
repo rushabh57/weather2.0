@@ -323,6 +323,7 @@ nav .Themes .themes-container {
   width: -moz-fit-content;
   width: fit-content;
   background: var(--whiteColor);
+  z-index:999;
   position: fixed;
   right: -50%;
   top: 5rem;
@@ -453,7 +454,7 @@ nav .Themes .themes-container .darkmodetoggle .squere-t-box img {
   animation: gradient 5s ease infinite;
 }
 @media (max-width: 770px) {
-  #srchInput{font-size:12px; line-height:3.5; text-overflow: ellipsis; overflow:hidden; white-space:nowrap}
+  #srchInput{font-size:12px; line-height:2.78; text-overflow: ellipsis; overflow:hidden; white-space:nowrap}
 }
 
 .DATA {
